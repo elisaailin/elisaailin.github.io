@@ -7,7 +7,7 @@ image: assets/images/02.jpg
 
 # Blog使用说明
 ## 前期准备
-首先点击[这里](https://github.com/git-for-windows/git/releases/download/v2.14.3.windows.1/Git-2.14.3-64-bit.exe)下载git
+首先点击[这里](https://git-scm.com/download/win)下载git
 双击运行安装程序
 主页配置在根目录下的index.md
 个人信息配置在根目录下的_config.yml
