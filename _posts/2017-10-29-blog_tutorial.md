@@ -8,10 +8,15 @@ image: assets/images/02.jpg
 # Blog使用说明
 ## 前期准备
 首先点击[这里](https://git-scm.com/download/win)下载git
+
 双击运行安装程序
+
 主页配置在根目录下的index.md
+
 个人信息配置在根目录下的_config.yml
+
 撰写博客需要使用markdown语法，详情看在线的Markdown编辑器，点[这里](https://www.zybuluo.com/mdeditor)
+
 ## 撰写博客
 每一篇博客开头需要添加
 ```
