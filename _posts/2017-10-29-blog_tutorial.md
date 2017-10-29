@@ -26,11 +26,14 @@ image: 博客背景图的路径，把图片放入assert文件夹下的images文�
 
 ## 提交博客
 1.将写完的博客放入_post文件夹下（删除博客的话删除_post文件夹下的对应文件，再提交一下就好了）
+
 2.在博客的根目录下邮件，选择git bash here
+
 本台计算机第一次提交时：
 ```
  git config --global user.email "you@example.com"
  git config --global user.name "Your Name"
 
 ```
+
 3.输入./push.sh,并根据提示输入github的用户名和密码
