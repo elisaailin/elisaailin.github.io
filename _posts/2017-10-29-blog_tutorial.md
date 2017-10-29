@@ -17,6 +17,8 @@ image: assets/images/02.jpg
 
 撰写博客需要使用markdown语法，详情看在线的Markdown编辑器，点[这里](https://www.zybuluo.com/mdeditor)
 
+新建一个文件夹存放博客，在文件夹内点击右键，选择git bash here，在黑框内输入git clone https://github.com/elisaailin/elisaailin.github.io.git
+
 ## 撰写博客
 每一篇博客开头需要添加
 ```
