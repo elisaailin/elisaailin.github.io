@@ -1,52 +1,36 @@
-# Dependencies
-markdown:	redcarpet
-pygments:	true
-
-# Permalinks
-permalink:	/blog/:title
-
-# Setup
-title:		Thinny
-tagline:	'blog'
-description:	'My personal blog.'
-url:		http://camporez.com
-
+# Site settings
+title: XDCQ
+subtitle: by HTML5 UP
+email: xdcq0717@163.com
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 author:
-  name:		'Ian Camporez Brunelli'
-  url:		https://google.com/+IanCamporezBrunelli
+street_address:
+city: Shanghai
+state: 
+zip_code: 
+country: China
+phone:
 
-paginate:	5
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
 
-# Custom vars
-icon:		/assets/images/icon.png
-cover:		/assets/images/cover.jpg
+# Social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url:
 
-social:
-  - icon:	twitter
-    url:	https://twitter.com/iancamporez
-    desc:	Follow me on twitter
+# Build settings
+markdown: kramdown
 
-  - icon:	github
-    url:	https://github.com/camporez
-    desc:	Fork me on github
-
-  - icon:	googleplus-alt
-    url:	https://google.com/+IanCamporezBrunelli
-    desc:	Add me on google+
-
-  - icon:	feed
-    url:	http://camporez.com/atom.xml
-    desc:	Subscribe to my feed
-    
-menu:
-  - title:	Home
-    url:	/
-    
-  - title:	About
-    url:	/about
-    
-copyright:
-  author:	Camporez
-  url:		http://camporez.com
-  type_title:	Some rights reserved
-  type_url:	http://creativecommons.org/licenses/by-nc/2.5
+sass:
+  style: compressed
