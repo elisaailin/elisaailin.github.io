@@ -1,35 +1,52 @@
-title: Your Title
-description: > # this means to ignore newlines until "baseurl:"
-  Your description
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "Your-Link.github.io" # the base hostname & protocol for your site
-# Build settings
-markdown: kramdown
+# Dependencies
+markdown:	redcarpet
+pygments:	true
 
-facebook:
-  app_id: 
+# Permalinks
+permalink:	/blog/:title
 
-logo: "../css/2016_style/img/icon-large.png"
+# Setup
+title:		Thinny
+tagline:	'blog'
+description:	'My personal blog.'
+url:		http://camporez.com
 
-social: 
-  name: Your Facebook Page
-  link: "https://www.facebook.com/"
+author:
+  name:		'Ian Camporez Brunelli'
+  url:		https://google.com/+IanCamporezBrunelli
 
-google_site_verification: googleXXXXXXXXXXXXXXXX.html
+paginate:	5
 
-include: ['_2016_pages', '_2017_pages']
+# Custom vars
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.jpg
 
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
-    url: https://www.facebook.com
-  - title: twitter
-    url: https://twitter.com
+  - icon:	twitter
+    url:	https://twitter.com/iancamporez
+    desc:	Follow me on twitter
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+  - icon:	github
+    url:	https://github.com/camporez
+    desc:	Fork me on github
+
+  - icon:	googleplus-alt
+    url:	https://google.com/+IanCamporezBrunelli
+    desc:	Add me on google+
+
+  - icon:	feed
+    url:	http://camporez.com/atom.xml
+    desc:	Subscribe to my feed
+    
+menu:
+  - title:	Home
+    url:	/
+    
+  - title:	About
+    url:	/about
+    
+copyright:
+  author:	Camporez
+  url:		http://camporez.com
+  type_title:	Some rights reserved
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
